@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/background_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/orangemuda">
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="nama mahasiswa"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txtNim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nim mahasiswa"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txtFakultas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="fakultas"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtProdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="prodi"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Email"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtNoHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="No HP"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+
+        <Button
+            android:id="@+id/btnChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/hijau"/>
+
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/merahmuda"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

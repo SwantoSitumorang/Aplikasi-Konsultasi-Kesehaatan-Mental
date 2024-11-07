@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register_mahasiswa"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_2">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Mahasiswa" />
+
+    <EditText
+        android:id="@+id/editTextNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editTextFakultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fakultas" />
+
+    <EditText
+        android:id="@+id/editTextProdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Program Studi" />
+
+    <EditText
+        android:id="@+id/editTextNoHp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor HP" />
+
+    <Button
+        android:id="@+id/buttonRegisterStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Mahasiswa"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/birulangit"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

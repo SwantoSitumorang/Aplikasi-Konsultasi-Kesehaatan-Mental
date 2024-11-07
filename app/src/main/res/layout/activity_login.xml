@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background_2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Mahasiswa UTY"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/black"
+        />
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="24dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       android:orientation="vertical">
+
+
+       <EditText
+           android:id="@+id/editTextNama"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:hint="Nama"
+           android:inputType="textPersonName"
+           android:padding="18dp"
+           android:background="@color/biruTerangBaget"
+           android:textColor="@color/black"/>
+
+       <EditText
+           android:id="@+id/editTextNIM"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:hint="NIM"
+           android:background="@color/biruTerangBaget"
+           android:inputType="number"
+           android:padding="18dp"
+           android:textColor="@color/black"/>
+
+
+
+
+   </LinearLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
+
